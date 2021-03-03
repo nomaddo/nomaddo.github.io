@@ -1,17 +1,19 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Dodododo`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `nomaddo`,
+      summary: `Compiler && OCaml lover.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `.`,
+    siteUrl: `https://nomaddo.github.io/`,
     social: {
-      twitter: `kylemathews`,
+      github: `nomaddo`,
     },
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
